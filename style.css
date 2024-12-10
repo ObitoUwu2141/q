@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lime; 
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    background-color: aqua; 
+    position: relative;
+}
+
+nav {
+    width: 15%;
+    height: 50%;
+    background-color: red; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+main {
+    width: 70%;
+    height: 100%;
+    background-color: lightgreen; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+aside {
+    width: 30%;
+    height: 100%;
+    background-color: green; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: pink; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
